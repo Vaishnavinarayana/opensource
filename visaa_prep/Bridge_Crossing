@@ -1,0 +1,6 @@
+x,y,z = map(int, input().split())
+if z > y:
+    max = (z - y)//x
+else:
+    max = 0
+print(max)
